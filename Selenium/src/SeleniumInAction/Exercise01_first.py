@@ -8,4 +8,6 @@ from selenium import webdriver
 
 browser = webdriver.Chrome("/usr/local/bin/chromedriver");
 
-browser.get()
+browser.get("http://www.google.com")
+
+browser.close()
